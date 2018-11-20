@@ -3,14 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Chronometre</title>
+    <link rel="stylesheet" href="correction/static/chrono.css">
 
 </head>
 <body>
 <h1>chronometre</h1>
 
-<div id="heure"></div>
-<div id="minut"></div>
-<div id="secon"></div>
+<div class="nbatrouver">
+
+    <input id="heur">
+
+    <input id="minu">
+
+    <input id="second">
+</div>
+
+
+<div class="nbatrouver">
+<div id="heure"></div><p>heures: </p>
+
+<div id="minut"></div><p>minutes: </p>
+
+<div id="secon"></div><p>secondes: </p>
+
+</div>
+
+<div id="final">
+<button id="tempfinal">ok</button>
+</div>
+<button id="res">arret</button>
+
+<button id="rest">reset</button>
+
 
 <script src="correction/chrono.js"></script>
 </body>

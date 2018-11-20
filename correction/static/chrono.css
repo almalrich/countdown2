@@ -1,0 +1,22 @@
+.nbatrouver{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: blue;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+#final{
+    font-size: 35px;
+    text-shadow:2px 2px blueviolet;
+
+}
+
+
+
+
