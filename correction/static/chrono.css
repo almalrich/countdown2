@@ -3,20 +3,44 @@
     flex-direction: row;
     justify-content: center;
     color: blue;
+    font-size: 35px;
+    height: 150px;
 }
 
 button{
     display: flex;
     justify-content: center;
     color: red;
+    font-size: 25px;
+    border-radius: 100%;
 }
 
 #final{
     font-size: 35px;
     text-shadow:2px 2px blueviolet;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 
 }
 
+h1{
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px whitesmoke;
+    background-color: grey;
 
+}
 
+input{
+    font-size: 25px;
+    border-radius: 100%;
+    background-color: darkgray;
 
+    padding-left: 12%;
+}
+
+#total{
+    height: 500px;
+    background: aqua;
+}
